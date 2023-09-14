@@ -1,0 +1,23 @@
+body {
+    background-color: #f7e4b7;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+}
+
+#depart {
+    /* Applique une marge en haut et à gauche pour déplacer la div vers le centre. Vous pouvez très bien supprimer ces règles */
+    margin-left: 500px;
+    margin-top: 250px;
+}
+
+#depart > img {
+    /* Pour afficher les images une sous l'autre. Vous n'êtes pas obligé de conserver cette règle*/
+    display: block;
+}
+
+#texte_css {
+    position: absolute; /* Permet de positionner le texte sans tenir compte des autres éléments */
+    top: 600px; /* Positionne le texte à 600px du haut de la page */
+    left: 20px; /* Positionne le texte à 20px de la gauche de la page */
+    font-size: 3em;
+}
